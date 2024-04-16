@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoリスト</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div id="container">
@@ -12,8 +13,11 @@
         </header>
         <main>
 <div id="add">
-    <input id="input" type="text">
-    <button onclick="addTask()">追加</button>
+
+      <input id="input" type="text"/>
+      <input id="date" type="datetime-local" />
+    <button type="submit" onclick="addTask()">追加</button>
+
 </div>
 <p>ToDo一覧</p>
 <ul id="ul">

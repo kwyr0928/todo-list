@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-size: 100%;
+}
+body {
+    width: 100%;
+}
+p {
+    padding-right: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+#input {
+    width: 300px;
+}
+ul {
+    list-style: none;
+    padding-right: 20px;
+    font-size: 1.1rem;
+}
+header {
+    height: 80px;
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+main {
+    width: 400px;
+    margin: 0px auto;
+text-align: left;
+}
+#add {
+    margin-bottom: 15px;
+} 
